@@ -1,6 +1,6 @@
 let mm = 2.83465;
 const BitlyClient = require('bitly').BitlyClient;
-const config = require('../config.json');
+const config = require('../../config.json');
 const bitly = new BitlyClient(config.bitly);
 
 async function render(input) {
