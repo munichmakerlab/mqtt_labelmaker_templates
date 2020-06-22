@@ -39,7 +39,7 @@ async function render(input) {
                 columns: [
                     {
                         stack: [
-                            { image: 'mumalab_logo.png', width: 10 * mm, margin: [2.5 * mm, 0.5 * mm, 2.5 * mm, 2 * mm] },
+                            { image: __dirname+'/mumalab_logo.png', width: 10 * mm, margin: [2.5 * mm, 0.5 * mm, 2.5 * mm, 2 * mm] },
                             qr_code,
                         ],
                         width: "auto"
